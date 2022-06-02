@@ -60,7 +60,7 @@ const Data = () => {
   }, [contacts]);
   return (
     <div>
-      <h2>Create TimeTable</h2>
+      <h2>TimeTable</h2>
       <form onSubmit={handleAddFormSubmit}>
         <input
           type="text"
