@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import "./classroom.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -33,8 +33,6 @@ const Classroom = () => {
     const newContacts = [...contacts, newuser];
     setContacts(newContacts);
   };
-
-  // console.log(user)
 
   const register = () => {
     const { dept, coursename, teacher, section, start, end } = user;
